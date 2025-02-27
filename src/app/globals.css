@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap');
 
 @import "tailwindcss/preflight";
 @import "tailwindcss/utilities";
@@ -20,14 +20,14 @@
 }
 
 * {
-  font-family: "Roboto", serif;
+  font-family: 'Montserrat', sans-serif;
   padding: 0.5vw 2vw 0.5vw 2vw;
 }
 
 body, html {
   color: var(--foreground);
   background: var(--background);
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   margin: var(--spacing-md);
 }
 
