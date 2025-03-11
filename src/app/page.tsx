@@ -92,7 +92,7 @@ export default function Home() {
   }, [city, search]);
 
   return (
-    <div className="flex flex-col w-1/2 mx-auto">
+    <div className="flex flex-col items-center w-full h-screen">
       <div>
         <SearchBar onSearch={handleSearch} />
         <Weather city={city} temperature={temperature} icon={icon} />

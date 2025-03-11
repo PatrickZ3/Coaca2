@@ -19,6 +19,121 @@
   }
 }
 
+@media screen and (max-width: 1440px) {
+  .container {
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .weatherContainer {
+    width: 80vw;
+    height: auto;
+  }
+
+  .search-bar {
+    width: 60vw;
+  }
+
+  .weatherSymbol {
+    height: 15vw;
+  }
+
+  .infoSymbol {
+    height: 8vw;
+  }
+
+  .temperature {
+    font-size: 6vw;
+  }
+
+  .content {
+    font-size: 2vw;
+  }
+
+  .info {
+    font-size: 1.2vw;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .heading {
+    font-size: 6vw !important;
+  }
+
+  .temperature {
+    font-size: 10vw !important;
+  }
+
+  .info {
+    font-size: 3vw !important;
+  }
+
+  .content {
+    font-size: 4vw !important;
+  }
+
+  .weatherSymbol {
+    height: 30vw !important;
+  }
+
+  .infoSymbol {
+    height: 12vw !important;
+  }
+
+  .holder {
+    width: 100% !important;
+  }
+
+  .holder input {
+    font-size: 2.5vw !important;
+    height: 8vw !important;
+    padding: 5vw !important;
+  }
+}
+
+@media screen and (max-width: 480px) {
+
+  .container {
+    flex-direction: column !important;
+    justify-content: space-evenly !important;
+  }
+
+  .heading {
+    font-size: 8vw !important;
+  }
+
+  .temperature {
+    font-size: 12vw !important;
+  }
+
+  .info {
+    font-size: 5vw !important;
+  }
+
+  .content {
+    font-size: 7vw !important;
+  }
+
+  .weatherSymbol {
+    height: 35vw !important;
+  }
+
+  .infoSymbol {
+    height: 14vw !important;
+  }
+
+  .holder input {
+    font-size: 4vw !important;
+    height: 14vw !important;
+    padding: 5vw !important;
+  }
+
+}
+
+
 * {
   font-family: 'Montserrat', sans-serif;
   padding: 0.5vw 2vw 0.5vw 2vw;
